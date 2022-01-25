@@ -1,0 +1,397 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Home.css">
+     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">  
+     <title>Trang Chủ</title>
+
+    </head>
+    <body>
+        <!--Tạo thanh cuộn menu cố định-->
+         <div id="wrapper">
+            <header>
+                <nav class="container">
+                    <a href="" id="logo">
+                    <img src="images/logo3.png" alt="A-Travel.com">
+                </a>
+                        <ul id="main-menu">
+                            <li><a href="">đặt dịch vụ</a>
+                               <ul class="sub-menu">
+                                    <li><a href="">Khách sạn</a></li>
+                                    <li><a href="">Vé máy bay</a></li>
+                                    <li><a href="">Tour & trải nghiệm</a></li>
+                                    <li><a href="">Hướng dẫn viên</a></li>
+                                </ul>     
+                            </li> 
+                            <li><a href="">tin tức</a> 
+                                  <ul class="sub-menu">
+                                    <li><a href="">Điểm đến</a></li>
+                                    <li><a href="">Ẩm thực</a></li>
+                                    <li><a href="">Tư vấn</a></li>
+                                    <li><a href="">Ăn và chơi</a></li>
+                                </ul>   
+                            </li> 
+                               <li><a href="">cẩm nang</a>
+                               <ul class="sub-menu">
+                                    <li><a href="">Kinh nghiệm du lịch từ A-Z</a></li>
+                                    <li><a href="">Lễ hội & sự kiện</a></li>
+                                    <li><a href="">Điểm đến hot</a></li>
+                                    <li><a href="">Mẹo du lịch</a></li>
+                                    <li><a href="">Câu hỏi thường gặp</a></li>
+                                </ul> 
+                            </li>  
+                        
+                            <li><a href="">blog</a></li>
+                            <li><a href="">Đăng Nhập</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header> 
+            <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+            <script>
+            $(document).ready(function() {
+            $(window).scroll(function(){
+                if($(this).scrollTop()){
+                    $('header').addClass('sticky');
+                    }
+                });
+            });
+            </script>       
+            <!--TẠO SLIDER ẢNH TRƯỢT TỰ ĐỘNG TRÊN WEB-->
+           <section class="slider owl-carousel owl-theme">
+            <div class="slider-item slider-item-one">
+                <div class="wrapper">
+                    <div class="slider-item-text">
+                        <p><span style="font-weight: bold; font-size: 30px;">Welcome to A-Travel</span><sup></sup></p><br>
+                        <p style="font-weight: bold;font-size: 40px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</p> <br>
+                        <p>Cẩm Nang Du Lịch Hàng Đầu Việt Nam</p> <br>
+                        <p><button>Tìm Hiểu Thêm</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item slider-item-two">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Hội An - Thành Phố Cổ Đẹp Nhất Châu Á </p> <br>
+                    <p>Phố cổ Hội An từng là một thương cảng quốc tế sầm uất, gồm những di sản kiến trúc đã có từ hàng 
+                        trăm năm trước, được UNESCO công nhận là di sản văn hóa thế giới từ năm 1999....</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+            </div>
+        </div>
+            <div class="slider-item slider-item-three">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Mù Căng Chải Nơi Con Người Và Thiên Nhiên Hòa Mình Vào Làm Một</p> <br>
+                    <p>Mù Cang Chải là một huyện vùng cao của tỉnh Yên Bái, nằm Cách Hà Nội gần 300 km về hướng Tây Bắc, Mù Cang Chải, Yên
+                         Bái là điểm đến ưa thích của người yêu thiên nhiên và thích thưởng ngoạn không khí vùng cao....</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+            <div class="slider-item slider-item-four">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Iceland-"Vùng Đất "Mặt Băng Dạ Lửa"</p> <br>
+                    <p>Iceland là một quốc đảo vô cùng xinh đẹp gần vành đai núi lửa Đại Tây Dương. Nếu bạn là một người có một chút gì đó
+                         thích phiêu lưu và mạo hiểm thì hãy đến du lịch Iceland. Iceland cũng rất cuốn hút với những ai đam mê thiên văn học, 
+                         muốn tận mắt chứng kiến những sự kiện thiên nhiên tuyệt đẹp của đất trời....</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+            <div class="slider-item slider-item-five">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Du lịch Trung Quốc</p> <br>
+                    <p>Trung Quốc có nền khí hậu khá đa dạng. Điều đó chắc chắn dẫn tới thảm thực vật của quốc gia này vô cùng phong phú, từ 
+                        sông ngòi đến sa mạc, rừng rậm tới đồng bằng, tất cả đều hòa nhịp vào nhau tạo nên một thiên nhiên Trung Quốc vô cùng trù phú....</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+            <div class="slider-item slider-item-six">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Du lịch Liên Bang Nga</p> <br>
+                    <p>Liên bang Nga không chỉ là nơi hội tụ của nhiều luồng văn hóa Châu Âu, nước Nga còn được thiên nhiên ban tặng cho vẻ đẹp lộng lẫy và tráng lệ. Nước Nga 
+                        với tên gọi khác là xứ sở Bạch Dương có chiều dài lịch sử vĩ đại và bề dày văn hóa lâu đời đã làm nên nét đặc sắc của quốc gia rộng lớn này. Những công
+                         trình kiến trúc đồ sộ vừa mang nét hiện đại cuả Châu Âu, lại vừa mang nét cổ điển, sang trong như cung điện Mùa Đông, tháp Ostankino, quảng trường Đỏ,…</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+            <div class="slider-item slider-item-seven">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Du lịch Ireland</p> <br>
+                    <p>Ireland là một đất nước xinh đẹp nằm ở khu vực phía Tây Bắc của Châu Âu. Phía Bắc của Ireland giáp với Bắc Ai-len, phía Tây và phía Nam giáp với Đại Tây Dương, 
+                        và phía Đông giáp với biển Ireland. Diện tích của Ireland rơi vào khoảng 70 triệu km2 và dân số khoảng 5 triệu người. Ireland không chỉ là điểm đến du lịch mà 
+                        còn là một trong những điểm đến du học hàng đầu trên thế giới....</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+            <div class="slider-item slider-item-eight">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Du lịch Thụy Điển</p> <br>
+                    <p>Thụy Điển được biết đến là một trong 3 quốc gia lớn nhất trong liên minh châu Âu. Những năm gần đây, du lịch Thụy Điển nổi lên bởi cảnh quan thanh bình, con người
+                         hiếu khách và những món ăn đặc sắc....</p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+            <div class="slider-item slider-item-nine">
+                <div class="wrapper">
+                <div class="slider-item-text">
+                    <p><span style="font-weight: bold; font-size: 30px;">Du Lịch Là Đỉnh Cao Của Cuộc Sống</span></p><br>
+                    <p style="font-weight: bold;font-size: 40px;">Du lịch Thụy Sĩ</p> <br>
+                    <p>Đất nước Thụy Sĩ là quốc gia không giáp với biển thuộc khu vực Tây Âu. Thụy Sĩ nổi tiếng với những ngọn núi quanh năm phủ đầy tuyết trắng, những thảo nguyên xanh 
+                        mướt hay cảnh hồ nước trong xanh, cùng những dòng sông băng êm đềm mang lại cảm giác yên bình dễ chịu cho bất kỳ ai khi có dịp đặt chân đến nơi đây. </p> <br>
+                    <p><button>Xem chi tiết</button></p>
+                </div>
+             </div>
+            </div>
+</section> 
+
+            <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+            <script>
+            $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+            });
+            $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            autoplay:true,
+            autoplayTimeout:3000, 
+            responsive:{
+            0:{
+            items:1
+            },
+            600:{
+            items:1
+            },
+            1000:{
+            items:1
+        }
+    }
+})
+        </script> 
+        <section class="nice-place">
+                                 <div class="container-one">
+                                 <h1>Địa Điểm Nổi Bật</h1>
+                                    <div class="nice-place-content row">
+                                        <div class="nice-place-item">
+                                         <div class="nice-place-img">
+                                            <img src="images/london.jpg" alt="">
+                                        </div>
+                                        <div class="nice-place-text">
+                                     <h2>Du Lịch LonDon</h2>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <p>Luân Đôn là thủ đô kiêm thành phố lớn nhất của Anh và của cả Vương quốc Liên hiệp Anh....</p>
+                                    <button>Tư vấn</button>
+                                </div>
+                            </div>
+        
+                            <div class="nice-place-item">
+                            <div class="nice-place-img">
+                            <img src="images/FB_IMG_1633136658827.jpg" alt="Amsterdam">
+                            </div>
+                        <div class="nice-place-text">
+                    <h2>Du Lịch Amsterdam</h2>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Amsterdam là thủ đô chính thức của Hà Lan, nằm trên các bờ vịnh IJmeer và sông Amstel,....</p>
+                    <button>Tư vấn</button>
+                </div>
+            </div>
+        
+            <div class="nice-place-item">
+                <div class="nice-place-img">
+                    <img src="images/paris+.png" alt="Paris">
+                </div>
+                <div class="nice-place-text">
+                    <h2>Du Lịch Paris</h2>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p>Paris lãng mạng, Thành phố Ánh sáng nơi có Arc de Triomphe và Tháp Eiffel, bánh mì baguette và thời trang...</p>
+                    <button>Tư vấn</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--NỘI DUNG MENU PHẦN 2-->
+    <section class="about">
+        <div class="container">
+            <h1>A-Travel Guide</h1>
+            <div class="about-content row">
+                <div class="about-content-left">
+                    <img src="images/business.jpg" alt="">
+                </div>
+                <div class="about-content-right">
+                    <h2>Tại sao bạn nên chọn chúng tôi?</h2>
+                    <p>Chúng tôi cung cấp những kiến thức và dịch vụ hàng đầu về du lịch nội địa và quốc tế</p>
+                    <button>Tìm hiểu thêm</button>
+                </div>
+            </div>
+            <div class="service row">
+                <div class="service-item">
+                    <img src="images/5-stars.png" alt="Đặt phòng">
+                    <p>Đặt phòng</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/customer.png" alt="Dịch vụ">
+                    <p>Dịch vụ 24/7</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/guide-book.png" alt="Cẩm nang">
+                    <p>Cẩm nang</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--NỘI DUNG TRANG CHỦ PHẦN 3-->
+     <section class="tour">
+        <div class="container-two">
+            <h1>Tour đang thịnh hành năm 2022</h1>
+            <div class="tour-content row">
+                <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="images/travelchinaplus.jpg" alt="Hội An">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Hội An</h2>
+                        <p>Hội An là một thành phố trực thuộc tỉnh Quảng Nam, Việt Nam. Phố cổ Hội An từng là một thương cảng quốc tế ...</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+            <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="images/traveldanang.jpg" alt="Đà Nẵng">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Đà Nẵng</h2>
+                        <p>Đà Nẵng là một thành phố trực thuộc trung ương, nằm trong vùng Duyên hải Nam Trung Bộ Việt Nam,...</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+            <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="images/travelsapa.jpg" alt="Sapa">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Sapa</h2>
+                        <p>Sapa là một địa điểm du lịch nổi tiếng thuộc tỉnh Lào Cai, nằm tại phía Bắc của nước ta...</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+            <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="images/travelhanoi.jpg" alt="Hà Nội">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Hà Nội</h2>
+                        <p>Hà Nội, thủ đô của Việt Nam, nổi tiếng với kiến trúc trăm tuổi và nền văn hóa phong phú...</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+            <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="images/travelcapadocia.jpg" alt="Capadocia">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Capadocia</h2>
+                        <p>Cappadocia là một khu vực lịch sử ở Trung Anatolia, phần lớn tại các tỉnh Nevşehir, Kayseri, Kirşehir...</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+            <div class="tour-content-item row">
+                    <div class="tour-content-item-img">
+                        <img src="images/tralvelmaldives.jpg" alt="Maldives">
+                    </div>
+                    <div class="tour-content-item-text">
+                        <h2>Maldives</h2>
+                        <p>Maldives,hay Cộng hòa Maldives, là một đảo quốc ở Nam Á gồm nhóm các đảo san hô tại Ấn Độ Dương..</p>
+                        <button>Khám phá</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>   
+                   <!----------------REVIEW------NỘI DUNG TRANG CHỦ 4---------------->
+            <section class="review">
+                <div class="container">
+                    <h1>Phản hồi & đánh giá</h1>
+                    <div class="review-content row">
+                        <div class="review-item">
+                            <div class="review-item-text">
+                                <img src="images/quotes.png" alt="quotes">
+                                <p><span>&ldquo;</span>rất hữu ích hihi^^<span>&rdquo;</span></p>
+                            </div>
+                            <div class="review-item-img row">
+                                <img src="images/mariaozawa.jpg" alt="mariaozawa">
+                                <div class="review-item-img-text">
+                                <h2>Maria Ozawa</h2>
+                                <p>Ngày 26/01/2022</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-item-text">
+                                <img src="images/quotes.png" alt="quotes">
+                                <p><span>&ldquo;</span>Rất ngon ! à không , rất tuyệt!<span>&rdquo;</span></p>
+                            </div>
+                            <div class="review-item-img row">
+                                <img src="images/tokuda.jpg" alt="tokuda">
+                                <div class="review-item-img-text">
+                                    <h2>Shigeo tokuda</h2>
+                                    <p>Ngày 26/01/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-item-text">
+                                <img src="images/quotes.png" alt="quotes">
+                                <p><span>&ldquo;</span>Quá hay ! Chúc web ngày càng phát triển hơn sau khi thầy đi tù về<span>&rdquo;</span></p>
+                            </div>
+                            <div class="review-item-img row">
+                                <img src="images/teachergrandpa.jpeg" alt="teachergrandpa">
+                                <div class="review-item-img-text">
+                                    <h2>Teacher Grandpa</h2>
+                                    <p>Ngày 26/01/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="script.js"></script>                                    
+    </body>
+    </html>
+    
